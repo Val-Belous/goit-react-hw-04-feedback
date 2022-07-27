@@ -1,0 +1,27 @@
+.list {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  padding: 10px;
+}
+
+.btn {
+  color: var(--main-color);
+  font-size: 20px;
+  margin-top: 10px;
+  min-width: 100px;
+  padding: 5px;
+  background-color: var(--second-color);
+  border: 1px solid var(--main-color);
+  border-radius: 5px;
+}
+
+.btn:hover,
+.btn:focus {
+  color: var(--second-color);
+
+  background-color: var(--main-color);
+
+  border: 1px solid var(--second-color);
+}
